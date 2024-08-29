@@ -1,0 +1,35 @@
+name: starter_app
+description: "A starter code for developers who use getx state management and SOLID principles"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0-323.2.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.6.0
+  get: ^4.6.6
+  hexcolor: ^3.0.1
+  circular_gradient_spinner: ^0.0.3
+  another_flutter_splash_screen: ^1.2.1
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  flutter_svg: ^2.0.10+1
+  libphonenumber: ^2.0.2
+
+  collection: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/logos/
+    - assets/images/svg/
+    - assets/images/jpg/
